@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tính điểm trung bình</title>
+</head>
+<body>
+  <script>
+    // Bước 1: Nhập điểm các môn học
+    let math = Number(prompt("Nhập điểm môn Toán:"));
+    let physics = Number(prompt("Nhập điểm môn Vật lý:"));
+    let chemistry = Number(prompt("Nhập điểm môn Hóa học:"));
+
+    // Bước 2: Tính điểm trung bình
+    let average = (math + physics + chemistry) / 3;
+
+    // Bước 3: Hiển thị kết quả
+    alert("Điểm trung bình của bạn là: " + average.toFixed(2));
+  </script>
+</body>
+</html>
