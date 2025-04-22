@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chuyển đổi tiền tệ</title>
+</head>
+<body>
+  <script>
+    // Bước 1: Nhập số tiền USD
+    let usd = Number(prompt("Nhập số tiền Đô la Mỹ (USD):"));
+
+    // Bước 2: Chuyển đổi sang VND
+    const exchangeRate = 25000; // Tỷ giá 1 USD = 25.000 VND
+    let vnd = usd * exchangeRate;
+
+    // Bước 3: Hiển thị kết quả
+    alert(usd + " USD tương đương với " + vnd.toLocaleString() + " VND");
+  </script>
+</body>
+</html>
